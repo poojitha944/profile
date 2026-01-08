@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* SECTIONS */
+.section {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #004e92;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #004e92;
+    color: white;
+    padding: 8px 15px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* CERTIFICATES */
+.certificates {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.certificates img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.certificates img:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact p {
+    margin: 8px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000428;
+    color: white;
+    margin-top: 40px;
+}
